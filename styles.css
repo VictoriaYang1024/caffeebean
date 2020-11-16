@@ -1,0 +1,537 @@
+/*Header*/
+
+.header-left-logo{
+	display: inline-block;
+	width: 100%;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+}
+
+.bean-logo{
+	position: absolute;
+	width: 150px;
+	height: 45px;
+	left: 40px;
+	top: 24px;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+
+	position: absolute;
+	width: 300px;
+	height: 28px;
+	right: 200px;
+	top: 36px;
+
+}
+
+.about-button{
+
+	background: #FFFFFF;
+
+	width: 65px;
+	height: 28px;
+	border: none;
+	font-family: Ropa Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+
+	color: #793A13;
+
+	text-decoration: none;
+
+}
+
+.navbar-button {
+  background: #FFFFFF;
+
+	width: 92px;
+	height: 28px;
+	border: none;
+	font-family: Ropa Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+
+	color: #793A13;
+
+	text-decoration: none;
+}
+
+.navBar-login{
+	background: #FFFFFF;
+	width: 80px;
+	position: absolute;
+	height: 28px;
+	right: 100px;
+	top: 36px;
+
+	font-family: Ropa Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+
+	color: #793A13;
+	border: none;
+	text-decoration: none;
+
+}
+
+.canada-logo{
+  position: absolute;
+	width: 41px;
+
+	height: 19px;
+	right: 40px;
+	top: 42px;
+}
+
+/* 
+.dropdown-content a: hover {
+	background-color: white;
+
+} */
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .navbar-button {
+	background: #F8EAEA;
+}
+
+.dropdown:hover .about-button {
+	background: #F8EAEA;
+}
+
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background: #B52B2B;
+
+	width: 135px;
+	height: 108px;
+	top: 35px;
+
+	/* hover shadow */
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+
+	min-width: 140px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+
+}
+
+/*Banner*/
+.hero-banner{
+	position: absolute;
+	width: 100%;
+	height: 550px;
+	top: 84px;
+	background: linear-gradient(to left, transparent, white), url("images/hero_image_full_width.png");
+	background-size: cover;
+}
+
+.banner-content p{
+	position: absolute;
+	width: 550px;
+	height: 150px;
+	left: 135px;
+	top: 170px;
+
+	font-family: Ropa Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2.5em;
+	line-height: 65px;
+
+	color: #793A13;	
+
+}
+
+.sign-up{
+	position: absolute;
+	height: 50px;
+	left: 110px;
+	width: 407px;
+	top: 403px;
+
+
+	background: #FFFFFF;
+	border: 1px solid #793A13;
+	box-sizing: border-box;
+	border-radius: 100px;
+}
+
+.sign-up-box{
+	position: absolute;
+	height: 28px;
+	width: 225px;
+	left: 130px;
+	top: 412px;
+
+	font-family: Ropa Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.sign-up-button{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 6px 24px;
+
+	position: absolute;
+	width: 143px;
+	height: 44px;
+	left: 371px;
+	top: 406px;
+
+	background: #B52B2B;
+	border-radius: 100px;
+
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+/*Client Logo*/
+.clent{
+	width:100%; 
+	height: 120px; 
+	overflow:auto;
+	text-align: center;
+
+}
+
+.aw-img{
+	position: absolute;
+	width: 11%;
+	height: 8.3%;
+	left: 16%;
+	top: 738.85px;
+}
+
+.wendys-img{
+	position: absolute;
+	width: 6.4%;
+	height: 9.4%;
+	left: 30%;
+	top: 734.07px;
+
+}
+
+.tim-hortons-img{
+	position: absolute;
+	width: 14%;
+	height: 6.3%;
+	left: 39%;
+	top: 749.07px;
+}
+
+.second-cup-img{
+	position: absolute;
+	width: 8.01%;
+	height: 8.4%;
+	left: 56.5%;
+	top: 742px;
+}
+
+.burger-king-img{
+	position: absolute;
+	width: 6.6%;
+	height: 13%;
+	left: 68%;
+  top: 727px;	
+
+}
+
+.mcdonalds-img{
+  position: absolute;
+  width: 7%;
+  height: 10.3%;
+  left: 77%;
+  top: 735.12px;
+}
+
+
+/*Footer*/
+.footer p{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	top: 820px;
+	font-family: Ropa Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	text-align: center;
+	color: #793A13;
+}
+
+
+/*split the view when screen less than 1000px*/
+@media screen and (min-width: 320px) and (max-width: 1080px){
+
+	.banner .hero-half-banner{
+  		display: block;
+		position: absolute;
+		width: 50%;
+		height: 550px;
+		top: 84px;
+		right: 0px;
+  	}
+
+	.banner .hero-banner{
+		display: none;
+	}
+
+}
+
+/*screen less than 700, show the menu button, hide navbar*/
+@media only screen and (max-width: 700px) {
+	.navbar .navbar-button{
+  	display: none;
+  }
+
+  .navbar .about-button{
+  	display: none;
+  }
+
+  .navBar-login{
+  	display: none;
+  }
+
+  .canada-logo{
+  	display: none;
+  }
+
+  .header .header-left-logo .menu-button{
+  	display: block;
+
+  	position: absolute;
+		width: 55px;
+		height: 28px;
+		right: 20px;
+		top: 34px;
+
+		background: #F8EAEA;
+		border-radius: 4px;
+		border: none;
+
+		font-family: Ropa Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 28px;
+
+		color: #B52B2B;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .header .header-left-logo .bean-logo-without-bean{
+  	display: block;
+  	position: absolute;
+		width: 163px;
+		height: 32px;
+		left: 20px;
+		top: 20px;
+  }
+
+  .header .header-left-logo .menu-button{
+  	display: block;
+
+  	position: absolute;
+		width: 55px;
+		height: 28px;
+		right: 20px;
+		top: 22px;
+
+		background: #F8EAEA;
+		border-radius: 4px;
+		border: none;
+
+		font-family: Ropa Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 28px;
+
+		color: #B52B2B;
+	}
+
+
+  /*Fotter*/
+  .footer p{
+  	position: absolute;
+  	width: 100%;
+  	top: 540px;
+  	height: 100px;
+  	text-align: center;
+
+		font-family: Ropa Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 32px;
+		line-height: 40px;
+
+		color: #793A13;
+  }
+
+  /*Banner*/
+  .banner .banner-content p{
+
+  	position: absolute;
+  	top: 270px;
+  	width: 100%;
+  	font-size: 1.8em;
+  	left: 0px;
+
+		font-family: Ropa Sans;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 40px;
+		text-align: center;
+
+		color: #793A13;
+
+  }
+
+  .banner .hero-half-banner{
+  	display: block;
+		position: absolute;
+		width: 100%;
+		height: 200px;
+		top: 64px;
+		left:0;
+  }
+
+  .banner .sign-up-now-button{
+		display: block;
+
+		position: absolute;
+		width: 78%;
+		height: 40px;
+		left: 11%;
+		top: 420px;
+
+		background: #B52B2B;
+		border-radius: 100px;
+
+		font-family: Ropa Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 1em;
+		line-height: 10px;
+		text-align: center;
+
+		color: #FFFFFF;
+  }
+
+  .banner .shop-now-button{
+  	display: block;
+
+		position: absolute;
+		height: 40px;
+		width: 78%;
+		left: 11%;
+		top: 480px;
+
+
+		background: #FFFFFF;
+		border: 1px solid #B52B2B;
+	  border-radius: 100px;
+
+		font-family: Ropa Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 1em;
+		line-height: 10px;
+		text-align: center;
+
+		color: #B52B2B;
+  }
+
+	/*screen width less than 600 hide these view*/
+  .sign-up-box{
+  	display: none;
+  }
+
+  .sign-up{
+  	display: none;
+  }
+
+  .client{
+  	display: none;
+  }
+
+  .header-left-logo .bean-logo{
+  	display: none;
+  }
+
+  .banner .hero-banner{
+  	display: none;
+  }
+
+  .banner .sign-up-button{
+  	display: none;
+  }
+}
+
+/*display none in web view*/
+/*header*/
+.menu-button{
+  display: none;
+}
+
+.bean-logo-without-bean{
+  display: none;
+}
+
+/*Banner*/
+.hero-half-banner{
+  display: none;
+}
+
+.sign-up-now-button{
+  display: none;
+}
+
+.shop-now-button{
+  display: none;
+}
