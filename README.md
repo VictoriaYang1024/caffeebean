@@ -1,3 +1,3 @@
 # caffeebean
 
-This is a coffe bean website.
+This is a coffee bean website.
