@@ -95,12 +95,6 @@
 	top: 42px;
 }
 
-/* 
-.dropdown-content a: hover {
-	background-color: white;
-
-} */
-
 .dropdown:hover .dropdown-content {
 	display: block;
 }
